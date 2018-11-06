@@ -1,0 +1,204 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial; 
+	background: url('a.jpg');
+	background-attachment: fixed;
+	background-position: center;
+}
+.ss
+{
+	position: absolute;
+	display: block;
+	width: 80%;
+	height: 200px;
+	left: 15%;
+	top: 80px;
+	
+}
+
+.mibusqueda
+{
+	position: absolute;
+	width: 60%;
+	height: 60px;
+	left: 10%;
+	top: 40%;
+	background: rgba(0, 222, 204, .07);
+	color: #fff;
+	font-size: 20px;
+	border-right: none;
+	border: 2px solid #fff;
+}
+
+.bot
+{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	left:70%;
+	top:40%;
+	background: rgba(0, 222, 204, .0);
+	font-size: 30px;
+	color: white;
+	border: 2px solid #fff;
+	border-left: none;
+
+}
+
+
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	background: #45c4da8f;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header .logo
+{
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+
+header nav
+{
+	float: right;
+}
+
+header nav ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li
+{
+	list-style: none;
+	position: relative;
+
+}
+header nav ul li.submenu:before
+{
+	content: '\f0d7';
+	font-family: sans-serif;
+	position: absolute;
+	line-height: 50px;
+	color: #fff;
+	right: 5px;
+}
+
+header nav ul li.activo.submenu:before
+{
+	content: '\f0d8';
+}
+
+
+header nav ul li ul
+{
+	position: absolute;
+	left: 0;
+	background: rgba(82, 206, 255, 0.363);
+	display: none;
+}
+header nav ul li.activo ul
+{
+	display: block;
+
+}
+
+header nav ul li ul li
+{
+	display: block;
+	width: 200px;
+}
+
+header nav ul li a
+{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+header nav ul li a.activo,
+header nav ul li a:hover
+{
+	color: #0012FF;
+	background: #79EEFF;
+	font-weight: bold;
+}
+
+.menu
+{
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	font-size: 15px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 800px) 
+{
+	header
+	{
+		padding: 0 20px;
+	}
+	.menu
+	{
+		display: block;
+	}
+	header nav
+	{
+		/* display: none; */
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: rgba(51, 51, 51, .86);
+		top: 50px;
+		left: -100px	;
+		transition: 0.5s;
+	}
+	header nav.activo
+	{
+		left: 0;
+	}
+	header nav ul
+	{
+		display: block;
+		text-align: center;
+	}
+	header nav ul li a
+	{
+		border-bottom: 1px solid rgba(0, 222, 204, .08);
+		
+	}
+
+	header nav ul li.activo ul
+	{
+		position: relative;
+		background:rgba(36, 36, 36, .76);
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
