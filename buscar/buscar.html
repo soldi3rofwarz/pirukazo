@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>buscador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <SCRIPT LANGUAGE=JAVASCRIPT>
+            // function limpiar() {
+            //     setTimeout('document.gg.reset()',2000);
+            //     return false;
+            // }
+
+        var ultimo = null;
+
+        function marcar(elemento) {
+        ultimo = elemento;
+        }
+
+        function limpiar() {
+         if (ultimo != null) {
+  	     ultimo.value = "";
+        }
+}
+    </SCRIPT>
+</head>
+<body>
+     
+    <FORM  method=GET action="https://www.youtube.com/search"> 
+        <fieldset class="field" > 
+            <h2>
+             El pirukazo
+            </h2>
+            <p>
+                La mejor opcion para buscar promociones
+            </p>
+            <input type=hidden name=ie value=UTF-8 /> 
+            <input type=hidden name=oe value=UTF-8 /> 
+                             
+            <INPUT TYPE=text id="s" name="q" value="" size="50" placeholder="¿Que quieres buscar?"/> 
+                    
+            <INPUT type=submit  id="x" name=btn VALUE="Buscar" /> 
+        
+        </fieldset> 
+        </FORM> 
+        <div class="container">
+            <button class="box1" value="Licores extrnajeros"> <img src="world.png" alt="world" width="40px"> <p>Licores <br> extranjeros</p> 
+            </button>
+           
+            
+            <button class="box2" value="Licores locales"> <img src="home.png" alt="home" width="40px"> <p>Licores <br> locales</p> 
+            </button>
+        </div>
+   
+</body>
+</html>
