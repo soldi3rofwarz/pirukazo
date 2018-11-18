@@ -1,0 +1,23 @@
+es una pagina web diseñada para ayudarte  a encontrar el precio ideal de la bebida que mas te gusta 
+para que puedas gastar menos y beber mas.
+
+
+
+
+
+no es solo una forma de buscar bares, es toda una comunidad
+
+- es una pagina en donde se presenta        - revision inmediata de cualquier
+  las promociones diarias en cada             falla encontrada por nuestro usuarios.
+  bar. 
+                                            - rapida integracion de nuevos bares 
+- es la mejor forma de informarse             que soliciten el servicio
+  acerca de el lugar indicado para
+  cada gusto de el cliente.                 - crecimiento constante de la pagina para 
+                                              tener mayor variedad para los clientes   
+- es una pagina sencilla e intuitiva          exigentes.
+  en donde cualquiera pueda navegar 
+  a traves de ella sin conociemietos
+  tecnicos.
+
+

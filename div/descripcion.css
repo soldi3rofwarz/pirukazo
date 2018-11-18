@@ -1,0 +1,178 @@
+.todo
+{
+   margin: 0;
+   padding: 0;
+}
+
+h2
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    transform: translate(60px,0);
+    color: cornflowerblue;
+}
+
+.a1
+{
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+
+.copa
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+  
+}
+.a1>p
+{
+transform: translate(0,-80px);
+}
+.a2
+{
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+.mapa
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+  
+}
+.a2>p
+{
+transform: translate(0,-80px);
+}
+.a3
+{
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+.monitor
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+.a3>p
+{
+transform: translate(0,-80px);
+}
+
+.a4
+{
+    display:block;
+    position: relative;
+    transform: translate(150%, -298%);
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+.error
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+.a4>p
+{
+
+transform: translate(10px,-80px);
+}
+
+
+.a5
+{
+    display:block;
+    position: relative;
+    transform: translate(150%, -298%);
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+.servicio
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+.a5>p
+{
+
+transform: translate(10px,-80px);
+}
+
+.a6
+{
+    display:block;
+    position: relative;
+    transform: translate(150%, -298%);
+    box-sizing: border-box;
+    width: 35%;
+    height: 150px;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Open Sans','sans-serif';
+}
+.barra
+{
+    display:block;
+    width: 90px; 
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+.a6>p
+{
+
+transform: translate(20px,-80px);
+}
