@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.but{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background: crimson;
+    display: flex;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/csslogin.css">
+    
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAIBlRIoh83ofjk-2FaoFMmqDdSukJXruQ",
+    authDomain: "usuarios-977a7.firebaseapp.com",
+    databaseURL: "https://usuarios-977a7.firebaseio.com",
+    projectId: "usuarios-977a7",
+    storageBucket: "usuarios-977a7.appspot.com",
+    messagingSenderId: "1064673065702"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/logo.png" class="avatar" alt="Avatar Image">
+      <h1>Iniciar Sesión </h1>
+      <form action="#">
+        <label for="Usuario">Usuario</label>
+        <input id="correo" type="email" placeholder="Ingrese su usuario">
+        <label for="Contraseña">Contraseña</label>
+        <input id="contraseña" type="password" placeholder="Ingrese su contraseña">
+       <a href="C:\Users\bvall\Documents\Projectos\Pagina Oficial\Index.html"> <button onclick="registrar()">Enviar</button> </a>
+        <br>
+        <a href="#">He olvidado mi contraseña?</a><br>             
+      </form>  
+    </div>
+
+    <script src= "app.js"></script>
+  </body>
+</html>
